@@ -1,0 +1,36 @@
+# QuantConnect Local Development Environment
+# Core QuantConnect packages
+# Note: QuantConnect packages are typically installed via their CLI or from specific sources
+# For local development, we'll focus on the research environment and data analysis tools
+
+# Data handling and analysis
+pandas>=1.5.0
+numpy>=1.21.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+plotly>=5.0.0
+
+# Financial data and analysis
+yfinance>=0.1.70
+alpha-vantage>=2.3.1
+# ta-lib>=0.4.24  # Commented out - may require special installation
+
+# Machine learning (optional)
+scikit-learn>=1.1.0
+# tensorflow>=2.10.0  # Commented out - large download, uncomment if needed
+# torch>=1.12.0  # Commented out - large download, uncomment if needed
+
+# Development tools
+jupyter>=1.0.0
+ipykernel>=6.0.0
+black>=22.0.0
+flake8>=5.0.0
+pytest>=7.0.0
+
+# Additional utilities
+requests>=2.28.0
+python-dotenv>=0.19.0
+tqdm>=4.64.0
+
+# QuantConnect Research Environment (if available)
+# pip install quantconnect-research --extra-index-url https://www.quantconnect.com/api/v2/packages 
